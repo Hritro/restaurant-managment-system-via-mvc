@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useState } from 'react';
 import useAxiosPublic from '../hooks/useAxiosPublic';
-import FoodCard from './FoodCard';
+import FoodCard from './foodCard';
 
 const TopFoods = () => {
     const [foods, setFood] = useState([])
