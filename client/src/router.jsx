@@ -3,7 +3,7 @@ import {
 }from "react-router";
 import MainLayout from "./layout/MainLayout";
 import Home from "./pages/home";
-import Login from "./pages/Login";
+import Login from "./pages/logIn"
 import SignUp from "./pages/signUp";
 
 export const router = createBrowserRouter([
@@ -17,7 +17,7 @@ export const router = createBrowserRouter([
         },
         {
           path:'login',
-          element: <Login></Login>
+          element: <logIn></logIn>
         },
         {
           path: 'signup',
